@@ -3,16 +3,20 @@
 height = 8;
 width = 8;
 
-x_start = 86;
-y_start = 126;
+#macro x_start 86
+#macro y_start 126
 
-offset = 64;
+#macro offset 48
 
 delay = 3;
-
-all_stop = false;
+setup = true;
 all_fall = false;
-
+touchxs = 0;
+touchys = 0;
+touchxd = 0;
+touchyd = 0;
+dot_swap_a = noone;
+dot_swap_b = noone;
 /*
 for ( var i = 0; i< width; i++;)
 	for (var k = 0; k<height; k++) {
@@ -23,7 +27,8 @@ for ( var i = 0; i< width; i++;)
 */
 
 //set_the_board();
-
+loopx = 0;
+loopy = 0;
 array = [];
 for ( var i = 0; i< width; i++;)
 	for (var k = 0; k<height; k++) 

@@ -2,10 +2,17 @@
   "resources": [
     {"id":{"name":"gameController","path":"objects/gameController/gameController.yy",},"order":0,},
     {"id":{"name":"gems_spr","path":"sprites/gems_spr/gems_spr.yy",},"order":0,},
+    {"id":{"name":"ref","path":"sprites/ref/ref.yy",},"order":2,},
     {"id":{"name":"room_nonsense","path":"scripts/room_nonsense/room_nonsense.yy",},"order":0,},
+    {"id":{"name":"gem_lv3","path":"objects/gem_lv3/gem_lv3.yy",},"order":4,},
     {"id":{"name":"bg_spr","path":"sprites/bg_spr/bg_spr.yy",},"order":1,},
+    {"id":{"name":"dow_glow_spr","path":"sprites/dow_glow_spr/dow_glow_spr.yy",},"order":3,},
     {"id":{"name":"gem","path":"objects/gem/gem.yy",},"order":2,},
+    {"id":{"name":"gem_nonsense","path":"scripts/gem_nonsense/gem_nonsense.yy",},"order":1,},
+    {"id":{"name":"gem_lv2","path":"objects/gem_lv2/gem_lv2.yy",},"order":3,},
     {"id":{"name":"bg_tile","path":"objects/bg_tile/bg_tile.yy",},"order":1,},
+    {"id":{"name":"gems_lv3_spr","path":"sprites/gems_lv3_spr/gems_lv3_spr.yy",},"order":5,},
+    {"id":{"name":"gems_lv2_spr","path":"sprites/gems_lv2_spr/gems_lv2_spr.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

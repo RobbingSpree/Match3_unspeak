@@ -11,3 +11,4 @@ grav = 0.2;
 max_spd = 15;
 spd = 0;
 falling = true;
+check_down = false;
