@@ -4,19 +4,22 @@ height = 8;
 width = 8;
 
 #macro x_start 86
-#macro y_start 126
+#macro y_start 60
 
 #macro offset 48
 
 delay = 3;
 setup = true;
-all_fall = false;
 touchxs = 0;
 touchys = 0;
 touchxd = 0;
 touchyd = 0;
 dot_swap_a = noone;
 dot_swap_b = noone;
+
+combo_count = 0;
+combo_lerp = 0;
+combo_level = 1;
 /*
 for ( var i = 0; i< width; i++;)
 	for (var k = 0; k<height; k++) {

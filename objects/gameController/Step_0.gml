@@ -46,4 +46,13 @@ if delay <=0 {
 	} else {
 		setup = false;
 	}
+	
+	if combo_lerp > 0 {
+		combo_lerp -= 0.1;
+		combo_count += 0.1;
+	} else if combo_count >= combo_level {
+		combo_count -= combo_level;
+		combo_level++;
+	}
+	
 }

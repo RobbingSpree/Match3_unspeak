@@ -7,7 +7,7 @@ if gameController.dot_swap_a == self || gameController.dot_swap_b == self {
 
 draw_self();
 
-
+/*
 draw_set_color(c_black);
 draw_text(x-5,y,xx);
 draw_text(x+5,y,yy);

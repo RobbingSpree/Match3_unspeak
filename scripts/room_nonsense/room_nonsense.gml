@@ -106,4 +106,5 @@ function match(xx,yy,dir,val,a) {
 			var gum = new_gem(xx,yy,"stay",2,val);
 		}
 	}
+	gameController.combo_lerp++;
 }
