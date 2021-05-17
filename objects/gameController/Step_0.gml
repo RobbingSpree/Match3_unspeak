@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 if dot_swap_a != noone && dot_swap_b != noone {
-		//swap array locations
+		//swap array location
 		var tempx = dot_swap_a.xx;
 		var tempy = dot_swap_a.yy;
 		dot_swap_a.xx = dot_swap_b.xx  

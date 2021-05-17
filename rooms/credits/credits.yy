@@ -14,7 +14,7 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"game_over_controller","path":"objects/game_over_controller/game_over_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":64.0,"resourceVersion":"1.0","name":"inst_66DCB9A","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"credits_controller","path":"objects/credits_controller/credits_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":64.0,"resourceVersion":"1.0","name":"inst_65C4C627","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"lady_spr","path":"sprites/lady_spr/lady_spr.yy",},"headPosition":2.0,"rotation":0.0,"scaleX":0.3,"scaleY":0.3,"animationSpeed":0.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":32.0,"resourceVersion":"1.0","name":"graphic_2ABA47DD","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -22,12 +22,6 @@
         {"spriteId":{"name":"lady_spr","path":"sprites/lady_spr/lady_spr.yy",},"headPosition":4.0,"rotation":0.0,"scaleX":0.3,"scaleY":0.3,"animationSpeed":0.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":32.0,"resourceVersion":"1.0","name":"graphic_81DE969","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"lady_spr","path":"sprites/lady_spr/lady_spr.yy",},"headPosition":5.0,"rotation":0.0,"scaleX":0.3,"scaleY":0.3,"animationSpeed":0.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":32.0,"resourceVersion":"1.0","name":"graphic_65FA439E","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"lady_spr","path":"sprites/lady_spr/lady_spr.yy",},"headPosition":6.0,"rotation":0.0,"scaleX":0.3,"scaleY":0.3,"animationSpeed":0.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":32.0,"resourceVersion":"1.0","name":"graphic_1C852AE0","tags":[],"resourceType":"GMRSpriteGraphic",},
-        {"spriteId":{"name":"lady_spr","path":"sprites/lady_spr/lady_spr.yy",},"headPosition":7.0,"rotation":0.0,"scaleX":0.3,"scaleY":0.3,"animationSpeed":0.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":32.0,"resourceVersion":"1.0","name":"graphic_706E9941","tags":[],"resourceType":"GMRSpriteGraphic",},
-        {"spriteId":{"name":"lady_spr","path":"sprites/lady_spr/lady_spr.yy",},"headPosition":8.0,"rotation":0.0,"scaleX":0.3,"scaleY":0.3,"animationSpeed":0.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":32.0,"resourceVersion":"1.0","name":"graphic_3631F883","tags":[],"resourceType":"GMRSpriteGraphic",},
-        {"spriteId":{"name":"lady_spr","path":"sprites/lady_spr/lady_spr.yy",},"headPosition":9.0,"rotation":0.0,"scaleX":0.3,"scaleY":0.3,"animationSpeed":0.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":32.0,"resourceVersion":"1.0","name":"graphic_42567082","tags":[],"resourceType":"GMRSpriteGraphic",},
-        {"spriteId":{"name":"lady_spr","path":"sprites/lady_spr/lady_spr.yy",},"headPosition":10.0,"rotation":0.0,"scaleX":0.3,"scaleY":0.3,"animationSpeed":0.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":32.0,"resourceVersion":"1.0","name":"graphic_9A5CDF5","tags":[],"resourceType":"GMRSpriteGraphic",},
-        {"spriteId":{"name":"lady_spr","path":"sprites/lady_spr/lady_spr.yy",},"headPosition":11.0,"rotation":0.0,"scaleX":0.3,"scaleY":0.3,"animationSpeed":0.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":32.0,"resourceVersion":"1.0","name":"graphic_77069708","tags":[],"resourceType":"GMRSpriteGraphic",},
-        {"spriteId":{"name":"lady_spr","path":"sprites/lady_spr/lady_spr.yy",},"headPosition":12.0,"rotation":0.0,"scaleX":0.3,"scaleY":0.3,"animationSpeed":0.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":32.0,"resourceVersion":"1.0","name":"graphic_2B724642","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"title_spr","path":"sprites/title_spr/title_spr.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":0.4,"scaleY":0.4,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":256.0,"resourceVersion":"1.0","name":"graphic_3E36298D","tags":[],"resourceType":"GMRSpriteGraphic",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Assets_1","tags":[],"resourceType":"GMRAssetLayer",},
     {"tilesetId":{"name":"blowup_tiles","path":"tilesets/blowup_tiles/blowup_tiles.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":24,"SerialiseHeight":18,"TileSerialiseData":[
@@ -56,7 +50,7 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_66DCB9A","path":"rooms/game_over/game_over.yy",},
+    {"name":"inst_65C4C627","path":"rooms/credits/credits.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -84,7 +78,7 @@
     "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "game_over",
+  "name": "credits",
   "tags": [],
   "resourceType": "GMRoom",
 }

@@ -1,22 +1,5 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function set_the_board(){
-	
-	var h = gameController.height;
-	var w = gameController.width;
-	var unit = offset;
-	var topx = x_start;
-	var topy = y_start- 300;
-	var boty = y_start + h*unit;
-	
-	for ( var i=0; i<w; i++) 
-		for (var k=0; k<h; k++) {
-			var gum = instance_create_layer(topx+i*unit,topy-k*unit,"Instances",gem);
-			gum.dy=boty-k*unit;
-			gum.image_index = irandom(6)+1;
-		}
-	
-}
 
 function check_for_match(a){
 	var h = gameController.height;
@@ -37,33 +20,7 @@ function check_for_match(a){
 	
 	with gem
 		check_down = true;
-	
-	//come_tumblin_down(gameController.array);
 }
-
-function come_tumblin_down(a) {
-	var h = gameController.height;
-	var w = gameController.width;
-	
-	//cause gems to fall
-	for (var i=0; i<w; i++) 
-		for (var k=0; k<h; k++) {
-			if a[i,k] == noone {
-				for (var v=k; v<h; v++) {
-					if a[i,v] != noone {
-						var target = a[i,v];
-						target.yy = k;
-						target.dy = y_start + k*offset;
-						gameController.array[i,k] = target;
-						gameController.array[i,v] = noone;
-						target.falling = true;
-						break;
-					}
-				}
-			}
-		}
-}
-
 	
 
 function match(xx,yy,dir,val,a) {
