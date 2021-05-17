@@ -1,9 +1,5 @@
 {
-  "name": "TileSet1",
-  "spriteId": {
-    "name": "Line_And_Shape_16x16_Expanded",
-    "path": "sprites/Line_And_Shape_16x16_Expanded/Line_And_Shape_16x16_Expanded.yy",
-  },
+  "spriteId": null,
   "tileWidth": 16,
   "tileHeight": 16,
   "tilexoff": 0,
@@ -869,6 +865,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "TileSet1",
   "tags": [],
   "resourceType": "GMTileSet",
 }

@@ -11,7 +11,7 @@ function new_gem(xx,yy,mode,lv,type){
 		if gameController.setup == true	
 			var y_pos = y_start-gameController.height*offset;
 		else 
-			var y_pos = y_start;
+			var y_pos = y_start-80;
 	} else if mode == "stay"
 		var y_pos = y_start+yy*offset;
 	else 

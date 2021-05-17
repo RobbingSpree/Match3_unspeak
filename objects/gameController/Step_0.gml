@@ -1,12 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if delay > 0
-	delay --;
-
-if delay <=0 {
-	
-	if dot_swap_a != noone && dot_swap_b != noone {
+if dot_swap_a != noone && dot_swap_b != noone {
 		//swap array locations
 		var tempx = dot_swap_a.xx;
 		var tempy = dot_swap_a.yy;
@@ -17,6 +12,15 @@ if delay <=0 {
 		//update array
 		array[dot_swap_a.xx,dot_swap_a.yy] = dot_swap_a;
 		array[dot_swap_b.xx,dot_swap_b.yy] = dot_swap_b;
+		//update location variables
+		with dot_swap_a {
+			dy = y_start + (gameController.height-yy)*offset;
+			dx = x_start+ (xx)*offset;
+		}
+		with dot_swap_b {
+			dy = y_start + (gameController.height-yy)*offset;
+			dx = x_start+ (xx)*offset;
+		}
 		//reset values
 		dot_swap_a = noone;
 		touchxd = 0;
@@ -25,6 +29,11 @@ if delay <=0 {
 		touchxs = 0;
 		touchys = 0;
 	}
+
+if delay > 0
+	delay --;
+
+if delay <=0 {
 	
 	if loopy == height && all_stop() && instance_number(gem) < height*width {
 		loopx = 0;
@@ -43,9 +52,7 @@ if delay <=0 {
 			loopx = 0;
 			loopy++
 		}
-	} else {
-		setup = false;
-	}
+	} 
 	
 	if combo_lerp > 0 {
 		combo_lerp -= 0.1;
@@ -53,6 +60,8 @@ if delay <=0 {
 	} else if combo_count >= combo_level {
 		combo_count -= combo_level;
 		combo_level++;
+		if combo_level > 10
+			room_goto(game_over);
 	}
 	
 }

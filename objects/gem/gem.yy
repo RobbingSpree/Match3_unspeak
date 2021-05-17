@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "gems_spr",
-    "path": "sprites/gems_spr/gems_spr.yy",
+    "name": "gem_alt",
+    "path": "sprites/gem_alt/gem_alt.yy",
   },
   "solid": false,
   "visible": true,

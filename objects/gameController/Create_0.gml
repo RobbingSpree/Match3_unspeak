@@ -9,7 +9,7 @@ width = 8;
 #macro offset 48
 
 delay = 3;
-setup = true;
+setup = false;
 touchxs = 0;
 touchys = 0;
 touchxd = 0;

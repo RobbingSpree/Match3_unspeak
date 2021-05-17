@@ -1,5 +1,4 @@
 {
-  "name": "blowup_tiles",
   "spriteId": {
     "name": "blow_up",
     "path": "sprites/blow_up/blow_up.yy",
@@ -133,6 +132,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "blowup_tiles",
   "tags": [],
   "resourceType": "GMTileSet",
 }

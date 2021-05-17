@@ -1,4 +1,36 @@
 
+
+if( mouse_check_button_pressed( mb_left ) || keyboard_check_pressed(vk_space) ) {
+    var g = collision_point( mouse_x, mouse_y, id, false, false )
+	if g != noone  {
+		if gameController.dot_swap_a == noone {
+			gameController.dot_swap_a = g;
+			gameController.touchxs = x;
+			gameController.touchys = y;
+		} else {
+			gameController.dot_swap_a = noone;
+			gameController.dot_swap_b = noone;
+		}
+	}
+}
+
+if( mouse_check_button_released( mb_left )  || keyboard_check_released(vk_space) ) {
+	var g = collision_point( mouse_x, mouse_y, id, false, false ) 
+    if( g != noone) {
+		if gameController.dot_swap_b == noone {
+			gameController.dot_swap_b = g;
+			gameController.touchxd = x;
+			gameController.touchyd = y;
+			gameController.delay = 2;
+		} else {
+			gameController.dot_swap_a = noone;
+			gameController.dot_swap_b = noone;
+		}
+	}
+}
+
+
+
 if check_down {
 	if yy > 0 && gameController.array[xx,yy-1] == noone {
 		gameController.array[xx,yy] = noone;
@@ -58,7 +90,7 @@ if falling {
 	}
 } 
 	
-
+/*
 if gameController.dot_swap_a != noone && gameController.dot_swap_b != noone  {
 	if gameController.dot_swap_a == self {
 		dx = gameController.touchxd;
