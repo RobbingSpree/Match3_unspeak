@@ -3,5 +3,7 @@
 if instance_exists(sound_controller)
 	instance_destroy(self);
 
+audio_channel_num(6);
 
-audio_play_sound(Sessy_times___1_,0,true);
+audio_play_sound(Sessy_times___1_,10,true);
+

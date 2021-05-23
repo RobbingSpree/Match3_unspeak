@@ -45,9 +45,10 @@ if check_down {
 			if tempx == xx && tempy < yy
 				check_down = true;
 		}
-	} else 
+	} else {
 		check_down = false;
-	
+		audio_play_sound(Tiles_drop_suond,0,false);
+	}
 }
 
 if instance_number(gem) < gameController.height*gameController.width

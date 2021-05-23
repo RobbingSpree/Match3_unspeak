@@ -34,7 +34,9 @@ function match(xx,yy,dir,val,a) {
 		h=0;
 	if dir == "vertical"
 		w=0;
-		
+	
+	//play match sound
+	audio_play_sound(MAtch_3_sound,1,false);
 	//destroy items in match
 	instance_destroy(a[xx,yy]);
 	gameController.array[xx,yy] = noone;
